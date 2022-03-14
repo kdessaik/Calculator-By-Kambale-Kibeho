@@ -1,0 +1,55 @@
+.Allsections{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: white;
+    margin-top: 2%;
+    padding-bottom: 2%;
+    margin-left: 30%;
+    margin-right: 50%;
+
+    
+}
+
+.Allsections h1{
+margin-bottom: 5%;
+
+}
+
+.input1 p{
+    margin: 2%;
+    color: wheat;
+    font-size: 50px;
+}
+.numbers{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin: 5%;
+
+}
+.numbers button{
+    background-color: rgb(255, 210, 210);
+    
+}
+
+.Snumber1{
+    margin-right: 0%;
+
+}
+.Snumber2{
+    position: relative;
+    
+}
+.operations{
+    display: flex;
+    
+    margin-left: 10%;
+}
+
+.operations button{
+    background-color: blue;
+}
