@@ -6,34 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="icon" type="image/png" href="./image/calculatorIcon.png" />
+    <link rel="icon" type="image/png" href="./image/calculatrice.JPG" />
     <title>Calculator</title>
 </head>
-<body class=" p-3 mb-2 bg-dark text-white">
-    <section class="Allsections">
-    <h1 class="text-center">Calculator</h1>
+<body class=" p-3 mb-2 bg-dark text-white" style="background-image: url(./image/back.jpg);background-size: 100%;">
+    <section class="Allsections"> <br>
+    <h1 class="text-center"> <u> Calculator</u></h1>
     <section class="input1" >
         
-        <p id="displ" ></p>
-        <p id="signs" ></p>
+        <p id="displ"  ></p>
+        
         
 
     </section>
-    <section class="input2"></section>
+    <section class="onluNumber">
     <section class="numbers" >
     <div class="Snumber1">
         <button data-key="97" class="btn btn-light" id="1">1</button>
-        <button data-key="100" class="btn btn-light" id="4">4</button>
-        <button data-key="103" class="btn btn-light" id="7" >7</button> <br>
+        <button data-key="98" class="btn btn-light" id="2">2</button>
+        <button data-key="99" class="btn btn-light" id="3" >3</button>
+        
+        
     </div>
     <div class="Snumber2">
-        <button data-key="98" class="btn btn-light" id="2">2</button> 
+        <button data-key="100" class="btn btn-light" id="4">4</button> 
         <button data-key="101" class="btn btn-light" id="5" >5</button>
-        <button data-key="104" class="btn btn-light" id="8" >8</button> <br>
+       <button data-key="102" class="btn btn-light" id="6" >6</button> <br>
     </div>
     <div class="Snumber3">
-        <button data-key="99" class="btn btn-light" id="3" >3</button>
-        <button data-key="102" class="btn btn-light" id="6" >6</button>
+        <button data-key="103" class="btn btn-light" id="7" >7</button> 
+        <button data-key="104" class="btn btn-light" id="8" >8</button>
+        
         <button data-key="105" class="btn btn-light" id="9" >9</button> <br>
         
     </div>
@@ -41,20 +44,18 @@
     <div class="Snumber3">
         <button data-key="110" class="btn btn-light" id="." >.</button>
         <button data-key="96" class="btn btn-light" id="0" >0</button>
-        <button data-key="13" class="btn btn-light" id="=" >=</button>
+        <button data-key="13" class="btn btn-light" id="egal" >=</button>
         
     </div>
+</section>
     
     
     <section class="operations">
-        <div class="firstSign">
-            <div id="*"><button data-key="106" class="btn btn-light" >*</button></div>
-            <div id="+" ><button data-key="107" class="btn btn-light"  >+</button></div> 
-        </div>
-        <div class="secondSign">
-            <div id="*"><button data-key="109" class="btn btn-light" >-</button></div> 
-            <div id="/"><button data-key="111" class="btn btn-light" >/</button></div><br>
-        </div>
+            <button data-key="106" class="btn btn-light" >*</button>
+            <button data-key="107" class="btn btn-light"  >+</button>
+            <button data-key="109" class="btn btn-light" >-</button>
+            <button data-key="111" class="btn btn-light" >/</button><br>
+
     </section>
     
 </section>
