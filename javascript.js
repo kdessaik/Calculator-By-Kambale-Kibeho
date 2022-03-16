@@ -29,6 +29,10 @@ const calculer = (valeur)=>{
              const calcu=eval(display.innerHTML)
              display.textContent=calcu
             break;
+            case '8':
+             let backSpace=display.innerHTML.slice(0,-1)
+             display.innerHTML=backSpace
+            break;
         
             default:
                 const indexNumber=listKeycode.indexOf(valeur)

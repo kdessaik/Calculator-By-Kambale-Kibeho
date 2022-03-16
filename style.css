@@ -103,3 +103,75 @@ margin-bottom: 5%;
     
     
 }
+#backSpace{
+        
+    background-color: rgb(67, 116, 27);
+     width: 30%;
+     margin-left: 13%;
+    
+}
+@media only screen and (max-width:800px){
+    .Allsections{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    width: 80%;
+    height: 600px;
+    border-style: solid;
+    border-color: white;
+    margin-top: 2%;
+    padding-bottom: 2%;
+    margin-left: 15%;
+    margin-right: 50%;
+    color: rgb(67, 116, 27);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+    #backSpace{
+        position: relative;
+        bottom: 3%;
+        background-color: rgb(67, 116, 27);
+         width: 70%;
+         margin-left: 20%;
+         margin-top: 5%;
+
+        
+    }
+    .text-center{
+        position: relative;
+        bottom: 7%;
+        margin-bottom: 0%;
+        font-size: 200%;
+    }
+    #displ{
+        position: absolute;
+        width: 50%;
+        height: 25%;
+        left: 30%;
+        bottom: 100%;
+        margin: 0%;
+        
+
+    }
+    .onluNumber{
+        position: relative;
+        margin-top: 80%;
+        margin-left: 5%;
+    }
+    .operations{
+        position: relative;
+        left: 10%;
+        top: 10%;
+    }
+    .operations .btn-light{
+    
+      border-radius: 40%;
+      text-align: center;
+      font-size: 110%;
+      
+
+    }
+
+}
