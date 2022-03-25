@@ -175,3 +175,47 @@ margin-bottom: 5%;
     }
 
 }
+@media  screen and (max-width:400px){
+    .Allsections{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+        width: 80%;
+        height: 600px;
+        border-style: solid;
+        border-color: white;
+        margin-top: 2%;
+        padding-bottom: 2%;
+        margin-left: 15%;
+        margin-right: 50%;
+        color: rgb(67, 116, 27);
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    .text-center{
+        position: relative;
+        bottom: 0%;
+        margin-bottom: 0%;
+        font-size: 200%;
+    }
+    #displ{
+        position: absolute;
+        left: 32%;
+        top: 10%;
+        width: 40%;
+        height: 25%;
+        text-align: center;
+        padding-top: 5%;
+    }
+    #backSpace{
+        background-color: rgb(67, 116, 27);
+         width: 32%;
+         margin-left: 19%;
+        
+    }
+    #resart{
+        position: relative;
+        bottom: 2%;
+    }
+
+}
