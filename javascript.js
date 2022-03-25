@@ -3,6 +3,7 @@ const display=document.getElementById('displ')
 
 
 
+
 const listKeycode=touches.map(touche=>touche.dataset.key )
 
 document.addEventListener('keydown',(e)=>{
@@ -30,7 +31,7 @@ const calculer = (valeur)=>{
              display.textContent=calcu
             break;
             case '8':
-             let backSpace=display.innerHTML.slice(0,-1)
+             let backSpace=display.innerHTML.slice(1,-1)
              display.innerHTM=backSpace
             break;
         
