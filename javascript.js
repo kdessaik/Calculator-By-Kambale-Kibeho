@@ -32,7 +32,7 @@ const calculer = (valeur)=>{
             break;
             case '8':
              let backSpace=display.innerHTML.slice(1,-1)
-             display.innerHTM=backSpace
+             display.innerHTML=backSpace
             break;
         
             default:
